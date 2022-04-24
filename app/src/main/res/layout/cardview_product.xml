@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android           = "http://schemas.android.com/apk/res/android"
+    xmlns:tools             = "http://schemas.android.com/tools"
+    android:layout_width    = "match_parent"
+    android:layout_height   = "wrap_content"
+    xmlns:app               = "http://schemas.android.com/apk/res-auto"
+    android:id              = "@+id/card_Product"
+    app:cardBackgroundColor = "#DD2C1A"
+    android:layout_margin   = "5dp"
+    app:cardCornerRadius    = "15dp"
+    app:cardElevation       = "5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width    = "match_parent"
+        android:layout_height   = "wrap_content">
+        <ImageView
+            android:id                              = "@+id/item_Photo"
+            android:layout_width                    = "100dp"
+            android:layout_height                   = "100dp"
+            android:layout_marginStart              = "24dp"
+            android:layout_marginTop                = "8dp"
+            android:layout_marginBottom             = "8dp"
+            app:layout_constraintBottom_toBottomOf  = "parent"
+            app:layout_constraintStart_toStartOf    = "parent"
+            app:layout_constraintTop_toTopOf        = "parent"/>
+        <TextView
+            android:id                              = "@+id/item_Name"
+            android:layout_width                    = "wrap_content"
+            android:layout_height                   = "wrap_content"
+            android:layout_marginStart              = "32dp"
+            android:layout_marginTop                = "24dp"
+            android:text                            = "Nama Produk"
+            android:textColor                       = "@color/white"
+            android:textSize                        = "14sp"
+            android:textStyle                       = "bold"
+            app:layout_constraintStart_toEndOf      = "@+id/item_Photo"
+            app:layout_constraintTop_toTopOf        = "parent"/>
+        <TextView
+            android:id                              = "@+id/item_Price"
+            android:layout_width                    = "wrap_content"
+            android:layout_height                   = "wrap_content"
+            android:layout_marginStart              = "32dp"
+            android:layout_marginBottom             = "24dp"
+            android:text                            = "Harga Produk"
+            android:textColor                       = "@color/white"
+            app:layout_constraintBottom_toBottomOf  = "parent"
+            app:layout_constraintStart_toEndOf      = "@+id/item_Photo"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
