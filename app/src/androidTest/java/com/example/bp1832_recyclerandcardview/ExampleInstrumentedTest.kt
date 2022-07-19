@@ -1,4 +1,4 @@
-package com.example.bp_5recyclerandcardview
+package com.example.bp1832_recyclerandcardview
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

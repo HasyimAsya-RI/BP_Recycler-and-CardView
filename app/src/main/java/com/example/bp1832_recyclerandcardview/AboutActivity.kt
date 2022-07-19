@@ -1,4 +1,4 @@
-package com.example.bp_5recyclerandcardview
+package com.example.bp1832_recyclerandcardview
 
 import android.content.Intent
 import android.net.Uri

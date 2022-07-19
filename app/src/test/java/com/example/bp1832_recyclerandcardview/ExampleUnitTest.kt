@@ -1,4 +1,4 @@
-package com.example.bp_5recyclerandcardview
+package com.example.bp1832_recyclerandcardview
 
 import org.junit.Test
 

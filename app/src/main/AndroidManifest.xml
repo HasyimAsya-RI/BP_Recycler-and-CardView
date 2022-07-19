@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bp_5recyclerandcardview">
+    package="com.example.bp1832_recyclerandcardview">
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BP5RecyclerAndCardView">
         <activity
-            android:name=".ProductActivity"
+            android:name="com.example.bp1832_recyclerandcardview.ProductActivity"
             android:exported="false" />
         <activity
-            android:name=".AboutActivity"
+            android:name="com.example.bp1832_recyclerandcardview.AboutActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.bp1832_recyclerandcardview.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
